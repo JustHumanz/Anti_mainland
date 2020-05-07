@@ -11,6 +11,7 @@ RUN go get -t github.com/mattn/go-sqlite3
 RUN go get -t gopkg.in/macaron.v1
 RUN go get -t github.com/alecthomas/kingpin
 RUN go get -t golang.org/x/crypto/ssh
+RUN go get -t github.com/oschwald/geoip2-golang
 
 WORKDIR /apps
 RUN go build -o api api.go
