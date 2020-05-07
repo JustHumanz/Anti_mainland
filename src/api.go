@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Sirupsen/logrus"
+	"github.com/sirupsen/logrus"
 	_ "github.com/mattn/go-sqlite3"
 	"gopkg.in/macaron.v1"
 )
@@ -104,7 +104,7 @@ func main() {
 		}
 	}(ch)
 
-	http.ListenAndServe("127.0.0.1:4000", srv)
+	http.ListenAndServe("0.0.0.0:4000", srv)
 }
 
 type db struct {
