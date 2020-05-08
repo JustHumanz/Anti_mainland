@@ -5,8 +5,8 @@ Just like the name,this tools can make chinese botnet never touch your VPS or ma
 this tools based on [honeypot](https://github.com/ppacher/honeyssh) so this tools will stored user&pass in database(sqlite)
 
 #### How this tools work?
-well this tools work/implemented on [Layer 8](https://www.computerhope.com/jargon/l/layer8.htm) and this tools just ```print some tcp ASCII banner``` in client 
-*see source code*
+well this tools work/implemented on [Layer 8](https://www.computerhope.com/jargon/l/layer8.htm) and this tools [print some tcp ASCII banner](https://github.com/JustHumanz/Anti_mainland/blob/2caab29b9bcce220e5fc6a131feeae35302ed671/src/server.go#L20) in client  
+
 
 #### How to use?
 you can build it by self or pulling from [docker hub](https://hub.docker.com/r/justhumanz/kick_mainland)  
