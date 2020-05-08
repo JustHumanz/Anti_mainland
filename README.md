@@ -15,3 +15,8 @@ docker pull justhumanz/kick_mainland
 docker run -itd --name xianjing -p 22:22 -p 4000:4000 justhumanz/kick_mainland
 ```
 Port 22 for honeypot ssh and port 4000 for API 
+
+#### API
+```
+curl http://localhost:4000/stats
+```
