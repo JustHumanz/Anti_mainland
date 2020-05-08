@@ -20,3 +20,10 @@ Port 22 for honeypot ssh and port 4000 for API
 ```
 curl http://localhost:4000/stats
 ```
+
+#### Example
+do ssh to my server 
+```
+ssh root@justhumanz.me -p 22
+```
+and see your password [here](api.justhumanz.me/honeypot)
