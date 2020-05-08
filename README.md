@@ -26,4 +26,4 @@ do ssh to my server
 ```
 ssh root@justhumanz.me -p 22
 ```
-and see your password [here](api.justhumanz.me/honeypot)
+and see your password [here](https://api.justhumanz.me/honeypot)
